@@ -1,0 +1,33 @@
+﻿#dvTitulo {
+    width: 1200px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+.clsTitulo {
+    font-family: 'Agency FB';
+    font-size:medium;
+    color: #ffa81e;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.clsGuias {
+    font-family: 'Agency FB';
+    font-size:medium;
+    color: #ffa81e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.clsRodape {
+    font-family: 'Agency FB';
+    font-size:medium;
+    color: #ffa81e;
+    font-size: 20px;
+    font-weight: bold;
+}
