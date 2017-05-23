@@ -28,7 +28,7 @@ a:active {text-decoration: none}
                     <div id="dvTitulo">
                         <table width="1200" border="0" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td height="200" class="clsTitulo" align="center" valign="middle"> MOTO TAXI RR </td>
+                                <td height="200" class="clsTitulo" align="center" valign="middle"> MOTO TAXI RsR </td>
                             </tr>
                         </table>
                     </div>
@@ -47,6 +47,8 @@ a:active {text-decoration: none}
                             </tr>
 
                 </div>
+  
+                    </div>
   
                     </div>
   
