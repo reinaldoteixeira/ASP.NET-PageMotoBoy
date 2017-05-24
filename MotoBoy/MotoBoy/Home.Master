@@ -45,6 +45,7 @@
                             <tr>
                                 <td height="50" width="300" class="clsGuias" align="center" valign="middle"><a href ="Solicitacao.aspx" >Solicitação </a></td>
                                 <td height="50" width="300" class="clsGuias" align="center" valign="middle"><a href ="Consulta.aspx">Consulta </a></td>
+                                <td height="50" width="300" class="clsGuias" align="center" valign="middle"><a href ="Usuario.aspx">Usuário </a></td>
                                 <td height="50" width="300" class="clsGuias" align="center" valign="middle"><a href ="QuemSomos.aspx">Quem Somos </a></td>
                             </tr>
                     </table>

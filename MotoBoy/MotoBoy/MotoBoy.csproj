@@ -70,6 +70,7 @@
     <Content Include="QuemSomos.aspx" />
     <Content Include="Solicitacao.aspx" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="Usuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="Solicitacao.aspx.designer.cs">
       <DependentUpon>Solicitacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.aspx.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario.aspx.designer.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
