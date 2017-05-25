@@ -16,7 +16,7 @@
                 <br />
 &nbsp;&nbsp; 
                 <asp:Label class="clstxt" ID="Label1" runat="server" Text="Endereço:"></asp:Label>
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
                 <asp:TextBox ID="TextBox2" runat="server" Width="219px"></asp:TextBox>
                 <br />
                 <br />
