@@ -6,6 +6,25 @@
 
 
 
+                <br />
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;<asp:Label class="clstxt" ID="Label2" runat="server" Text="Nome:"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                <asp:TextBox ID="TextBox1" runat="server" Width="219px"></asp:TextBox>
+                <br />
+                <br />
+&nbsp;&nbsp; 
+                <asp:Label class="clstxt" ID="Label1" runat="server" Text="Endereço:"></asp:Label>
+&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TextBox2" runat="server" Width="219px"></asp:TextBox>
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button1" runat="server" Height="45px" Text="Button" Width="75px" />
+
+
+
                 </div>
           </asp:Content>
 
