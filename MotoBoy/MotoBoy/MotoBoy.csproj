@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Consulta.aspx" />
+    <Content Include="NewFolder1\icoMotoTaxi.png" />
     <Content Include="QuemSomos.aspx" />
     <Content Include="Solicitacao.aspx" />
     <Content Include="StyleSheet1.css" />
@@ -128,6 +129,7 @@
       <DependentUpon>Usuario.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
