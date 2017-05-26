@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Consulta.aspx" />
+    <Content Include="NewFolder1\css.txt" />
     <Content Include="NewFolder1\icoMotoTaxi.png" />
     <Content Include="PaginaIni.aspx" />
     <Content Include="QuemSomos.aspx" />
