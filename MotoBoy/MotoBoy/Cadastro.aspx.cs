@@ -49,8 +49,7 @@ namespace MotoBoy
                 dt.Rows.Add(new String[] { placa, veiculo, nome, preco, desc });
             }
             Banco.conexao.Close();
-            GridView1.DataSource = dt;
-            GridView1.DataBind();
+
         }
     }
 }

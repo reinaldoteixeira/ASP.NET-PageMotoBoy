@@ -21,7 +21,7 @@
                 <br />
                 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button  ID="bt_Inserir" runat="server" Height="45px" Text="Cadastrar" Width="134px" CssClass="clsbutton" 
+                <asp:Button  ID="bt_Inserir" runat="server" Height="45px" Text="Cadastrar" Width="134px" CssClass="clsbutton" OnClick="bt_Inserir_Click" 
                      /> 
 
 
