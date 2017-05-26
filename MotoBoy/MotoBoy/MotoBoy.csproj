@@ -62,6 +62,7 @@
       <DependentUpon>MotoBoy.mdf</DependentUpon>
     </Content>
     <Content Include="Cadastro.aspx" />
+    <Content Include="Cadastro2.aspx" />
     <Content Include="Home.Master" />
     <Content Include="Home2.Master" />
     <None Include="Web.Debug.config">
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="Cadastro.aspx.designer.cs">
       <DependentUpon>Cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro2.aspx.cs">
+      <DependentUpon>Cadastro2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cadastro2.aspx.designer.cs">
+      <DependentUpon>Cadastro2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Consulta.aspx.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
