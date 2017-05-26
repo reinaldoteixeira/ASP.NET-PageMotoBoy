@@ -40,6 +40,7 @@ namespace MotoBoy
                 Label3.Text = "Erro ao Incluir >> " + erro.Message;
                 TextBox1.Text = TextBox2.Text = "";
                 TextBox1.Focus();
+                
 
             }
 

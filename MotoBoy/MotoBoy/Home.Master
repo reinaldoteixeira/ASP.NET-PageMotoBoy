@@ -15,7 +15,9 @@
             a:visited {text-decoration: none}
             a:hover {text-decoration: underline}
             a:active {text-decoration: none}
-        -->
+
+            -->
+
 
     </style> 
 
@@ -66,9 +68,38 @@
 
                 <div style="width: 1200px; height: 239px;">
 
-                </div>
+                <asp:ContentPlaceHolder ID="Inicio" runat="server">
 
-         </asp:ContentPlaceHolder>  
+                
+                <div style="background-color: darkblue; position: relative; -webkit-animation-name: example; -webkit-animation-duration: 4s; animation-name:example; animation-duration: 4s; width: 100px; height: 100px;">
+
+                    <style>
+               /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+    0%   {background-color:deepskyblue; left:0px; top:0px;}
+    25%  {background-color:yellowgreen; left:1180px; top:0px;}
+    50%  {background-color:forestgreen; left:1180px; top:190px;}
+    75%  {background-color:cadetblue; left:0px; top:190px;}
+    100% {background-color:black; left:0px; top:0px;}
+}
+
+        /* Standard syntax */
+    @keyframes example {
+    0%   {background-color:deepskyblue; left:0px; top:0px;}
+    25%  {background-color:yellowgreen; left:1180px; top:0px;}
+    50%  {background-color:forestgreen; left:1180px; top:190px;}
+    75%  {background-color:cadetblue; left:0px; top:190px;}
+    100% {background-color:black; left:0px; top:0px;}
+}
+        
+    
+                    </style>
+                    </div>
+                    </asp:ContentPlaceHolder> 
+                    </div>                    
+                    </asp:ContentPlaceHolder>  
+
+       
 
 
 
