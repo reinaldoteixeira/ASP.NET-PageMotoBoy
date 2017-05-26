@@ -63,5 +63,12 @@
     color: white;
     position:fixed center;
 }
- 
+
+.clsQsomos {
+    font-family: 'Agency FB';
+    font-size: medium;
+    color: #0094ff;
+    font-size: 25px;
+    font-weight: bold;
+    position:center;
 }
