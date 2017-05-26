@@ -12,7 +12,11 @@ namespace MotoBoy
     public class Banco
     {
         public static SqlConnection  conexao  = new SqlConnection(@"");
+        public  SqlCommand comando = new SqlCommand("",conexao);
 
+                
     }
+
+
    
 }
