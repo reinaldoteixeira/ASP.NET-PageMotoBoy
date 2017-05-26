@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="Consulta.aspx" />
     <Content Include="NewFolder1\icoMotoTaxi.png" />
+    <Content Include="PaginaIni.aspx" />
     <Content Include="QuemSomos.aspx" />
     <Content Include="Solicitacao.aspx" />
     <Content Include="StyleSheet1.css" />
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="Home2.Master.designer.cs">
       <DependentUpon>Home2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaIni.aspx.cs">
+      <DependentUpon>PaginaIni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaIni.aspx.designer.cs">
+      <DependentUpon>PaginaIni.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuemSomos.aspx.cs">
