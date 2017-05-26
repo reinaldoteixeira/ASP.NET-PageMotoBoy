@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\MotoBoy.mdf" />
+    <Content Include="App_Data\MotoBoy_log.ldf">
+      <DependentUpon>MotoBoy.mdf</DependentUpon>
+    </Content>
     <Content Include="Cadastro.aspx" />
     <Content Include="Home.Master" />
     <Content Include="Home2.Master" />
