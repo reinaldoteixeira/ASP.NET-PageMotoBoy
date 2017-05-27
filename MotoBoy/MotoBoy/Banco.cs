@@ -11,8 +11,7 @@ namespace MotoBoy
 
     public class Banco
     {
-        public static SqlConnection  conexao  = new SqlConnection(@"");
-        public  SqlCommand comando = new SqlCommand("",conexao);
+        public static SqlConnection  conexao  = new SqlConnection(@"Data Source=DESKTOP-IHRFUSH;Initial Catalog=bd_motoboy;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
                 
     }

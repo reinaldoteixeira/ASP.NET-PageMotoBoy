@@ -22,13 +22,13 @@ namespace MotoBoy {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// txtNome0 control.
+        /// txtId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNome0;
+        protected global::System.Web.UI.WebControls.TextBox txtId;
         
         /// <summary>
         /// Label1 control.
@@ -101,5 +101,14 @@ namespace MotoBoy {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+        
+        /// <summary>
+        /// lblAviso control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAviso;
     }
 }

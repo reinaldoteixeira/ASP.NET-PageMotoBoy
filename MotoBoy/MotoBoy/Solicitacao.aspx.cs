@@ -20,6 +20,9 @@ namespace MotoBoy
         {
             try
             {
+//situacao        int             null,
+//data date            null,
+//hora time            null,
                 
                 SqlCommand comando = new SqlCommand("insert into solicitacao (nome,endereco) values (@nome, @endereco)", Banco.conexao);
 

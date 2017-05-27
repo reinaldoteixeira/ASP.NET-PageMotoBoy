@@ -19,36 +19,42 @@ namespace MotoBoy
         protected void Button1_Click(object sender, EventArgs e)
         {
 
+
+            if(txtSenha.Text != txtConfirmarSenha.Text)
+            {
+                lblAviso.Text = "Os campos senha e confirmar senha são diferentes";
+                return;
+            }
+
+            int motoboy = 0;
+            if (CheckBox1.Checked == true)
+            {
+                motoboy = 1;
+            }
+            else
+            {
+                motoboy = 0;
+            }
+
+            SqlCommand comando = new SqlCommand("insert into usuarios values(@nome,@senha,"+  motoboy.ToString() + ")" , Banco.conexao);
+            comando.Parameters.AddWithValue("@nome", txtNome.Text);
+            comando.Parameters.AddWithValue("@senha", txtSenha.Text);
+
+            Banco.conexao.Open();
+            comando.ExecuteNonQuery();
+            Banco.conexao.Close();
+
+            lblAviso.Text = "Usuario Inserido com sucesso!!";
+            limparCampos();
+        }
+        private void limparCampos()
+        {
+            txtConfirmarSenha.Text = txtNome.Text = txtId.Text = txtSenha.Text = "";
         }
         protected void CarregaGV()
         {
-            DataTable dt = new DataTable();
-            SqlCommand comando = new SqlCommand("select * from usuarios", Banco.conexao);
-            SqlDataReader reg;
-            //SqlDataReader data = comando.
-    
-            dt.Columns.Add("ID", System.Type.GetType("System.String"));
-            dt.Columns.Add("Nome", System.Type.GetType("System.String"));
-            dt.Columns.Add("Senha", System.Type.GetType("System.String"));
-            dt.Columns.Add("ADM", System.Type.GetType("System.String"));
-            dt.Columns.Add("Descrição", System.Type.GetType("System.String"));
-            Banco.conexao.Open();
-            reg = comando.ExecuteReader();
-            string placa = "";
-            string veiculo = "";
-            string nome = "";
-            string preco = "";
-            string desc = "";
-            while (reg.Read())
-            {
-                placa = reg["Placa"].ToString();
-                veiculo = reg["Veículo"].ToString();
-                nome = reg["Nome"].ToString();
-                preco = reg["Preço"].ToString();
-                desc = reg["Descrição"].ToString();
-                dt.Rows.Add(new String[] { placa, veiculo, nome, preco, desc });
-            }
-            Banco.conexao.Close();
+
+            
     
         }
     }

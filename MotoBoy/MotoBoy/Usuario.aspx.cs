@@ -33,6 +33,7 @@ namespace MotoBoy
 
                 if (reg.HasRows)
                 {
+                    
                     Response.Redirect("Cadastro.aspx");
                     
                 }
