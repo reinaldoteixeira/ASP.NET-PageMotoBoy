@@ -11,7 +11,7 @@ namespace MotoBoy
 {
 
 
-    public partial class Consulta
+    public partial class Cadastro2
     {
     }
 }
