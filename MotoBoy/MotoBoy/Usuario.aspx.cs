@@ -33,8 +33,8 @@ namespace MotoBoy
 
                 if (reg.HasRows)
                 {
-                    
-                    Response.Redirect("Cadastro.aspx");
+                    Banco.conexao.Close();
+                    Response.Redirect("Relatorio.aspx");
                     
                 }
                 else

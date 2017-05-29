@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,6 +66,7 @@
     <Content Include="Cadastro2.aspx" />
     <Content Include="Home.Master" />
     <Content Include="Home2.Master" />
+    <Content Include="Config.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,6 +80,7 @@
     <Content Include="NewFolder1\icoMotoTaxi.png" />
     <Content Include="PaginaIni.aspx" />
     <Content Include="QuemSomos.aspx" />
+    <Content Include="Relatorio.aspx" />
     <Content Include="Solicitacao.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Usuario.aspx" />
@@ -135,6 +138,13 @@
     <Compile Include="QuemSomos.aspx.designer.cs">
       <DependentUpon>QuemSomos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Relatorio.aspx.cs">
+      <DependentUpon>Relatorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorio.aspx.designer.cs">
+      <DependentUpon>Relatorio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Solicitacao.aspx.cs">
       <DependentUpon>Solicitacao.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -148,6 +158,13 @@
     </Compile>
     <Compile Include="Usuario.aspx.designer.cs">
       <DependentUpon>Usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Config.aspx.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Config.aspx.designer.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

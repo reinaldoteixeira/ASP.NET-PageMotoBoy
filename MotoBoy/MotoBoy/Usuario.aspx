@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" runat="server" contentplaceholderid="Body_Master">
 
-                <div style="width: 1200px; height: 239px;">
+                <div style="width: 1200px; height: 277px;">
 
                                     <br />
                 <br />
@@ -16,7 +16,7 @@
 &nbsp;&nbsp; 
                 <asp:Label class="clstxt" ID="Label1" runat="server" Text="Senha:"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBox2" runat="server" Width="219px"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" Width="219px" TextMode="Password"></asp:TextBox>
                                     <br />
                                     <br />
                                     <br />

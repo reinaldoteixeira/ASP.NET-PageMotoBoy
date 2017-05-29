@@ -10,78 +10,69 @@
 namespace MotoBoy {
     
     
-    public partial class Home {
+    public partial class Relatorio {
         
         /// <summary>
-        /// head control.
+        /// lblAviso control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Label lblAviso;
         
         /// <summary>
-        /// form1 control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// Head_Master control.
+        /// dgvSolicitacao control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Head_Master;
+        protected global::System.Web.UI.WebControls.GridView dgvSolicitacao;
         
         /// <summary>
-        /// Image2 control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image2;
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// Guias_Master control.
+        /// dgvSolicitacao0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Guias_Master;
+        protected global::System.Web.UI.WebControls.GridView dgvSolicitacao0;
         
         /// <summary>
-        /// Body_Master control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Body_Master;
+        protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// Inicio control.
+        /// dgvSolicitacao1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Inicio;
-        
-        /// <summary>
-        /// Rodape_Master control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Rodape_Master;
+        protected global::System.Web.UI.WebControls.GridView dgvSolicitacao1;
     }
 }

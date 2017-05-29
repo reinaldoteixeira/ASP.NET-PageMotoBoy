@@ -4,3 +4,9 @@ C:\Users\LABA15-31\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\bin\MotoBoy.pdb
 C:\Users\LABA15-31\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\obj\Debug\MotoBoy.csprojResolveAssemblyReference.cache
 C:\Users\LABA15-31\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\obj\Debug\MotoBoy.dll
 C:\Users\LABA15-31\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\obj\Debug\MotoBoy.pdb
+C:\Users\Rainã\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\bin\MotoBoy.dll.config
+C:\Users\Rainã\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\bin\MotoBoy.dll
+C:\Users\Rainã\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\bin\MotoBoy.pdb
+C:\Users\Rainã\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\obj\Debug\MotoBoy.csprojResolveAssemblyReference.cache
+C:\Users\Rainã\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\obj\Debug\MotoBoy.dll
+C:\Users\Rainã\Source\Repos\PageMotoBoy\MotoBoy\MotoBoy\obj\Debug\MotoBoy.pdb

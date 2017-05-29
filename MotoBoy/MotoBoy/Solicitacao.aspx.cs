@@ -20,11 +20,8 @@ namespace MotoBoy
         {
             try
             {
-//situacao        int             null,
-//data date            null,
-//hora time            null,
                 
-                SqlCommand comando = new SqlCommand("insert into solicitacao (nome,endereco) values (@nome, @endereco)", Banco.conexao);
+                SqlCommand comando = new SqlCommand("insert into solicitacao (nome,endereco,situacao,data,hora,minutos) values (@nome, @endereco,0,GETDATE(),datepart(hh, getdate()),datepart(mi, getdate()))", Banco.conexao);
 
                 comando.Parameters.AddWithValue("@nome", TextBox1.Text);
                 comando.Parameters.AddWithValue("@endereco", TextBox2.Text);
@@ -32,7 +29,7 @@ namespace MotoBoy
                 Banco.conexao.Open();
                 comando.ExecuteNonQuery();
                 Banco.conexao.Close();
-                Label3.Text = "Registro Inserido com Sucesso!";
+                Label3.Text = "Solicitação feita com Sucesso!";
                 TextBox1.Text = TextBox2.Text = "";
                 TextBox1.Focus();
             }
@@ -44,12 +41,8 @@ namespace MotoBoy
                 TextBox1.Text = TextBox2.Text = "";
                 TextBox1.Focus();
                 
-
             }
             
-
-
-
 
         }
     }

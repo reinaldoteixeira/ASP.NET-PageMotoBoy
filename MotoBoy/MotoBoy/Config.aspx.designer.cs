@@ -10,78 +10,87 @@
 namespace MotoBoy {
     
     
-    public partial class Home {
+    public partial class WebForm1 {
         
         /// <summary>
-        /// head control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// form1 control.
+        /// txtFixo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox txtFixo;
         
         /// <summary>
-        /// Head_Master control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Head_Master;
+        protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// Image2 control.
+        /// txtKm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image2;
+        protected global::System.Web.UI.WebControls.TextBox txtKm;
         
         /// <summary>
-        /// Guias_Master control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Guias_Master;
+        protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// Body_Master control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Body_Master;
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// Inicio control.
+        /// txtAcrescimo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Inicio;
+        protected global::System.Web.UI.WebControls.TextBox txtAcrescimo;
         
         /// <summary>
-        /// Rodape_Master control.
+        /// bt_Login control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Rodape_Master;
+        protected global::System.Web.UI.WebControls.Button bt_Login;
+        
+        /// <summary>
+        /// lblAviso control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAviso;
     }
 }
